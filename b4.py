@@ -3,9 +3,11 @@ script, file = argv
 def print_all(f):
 	print f.read()
 def rewind(f):
-	f.seek(0)
+f1.seek(0)
+
 def print_a_line(line_count, f):
 	print line_count, f.readline()
+ 
 current_file = open(file)
 print "print the whole file:\n"
 print_all(current_file)
